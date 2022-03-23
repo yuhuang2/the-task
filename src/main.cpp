@@ -13,7 +13,7 @@ void setup()
 {
   M5.begin();    // Init M5Core.  初始化 M5Core
   M5.IMU.Init(); // Init IMU sensor.  初始化惯性传感器
-  // M5.IMU.SetAccelFsr(AFS_4G);
+  M5.IMU.SetAccelFsr(AFS_4G);
   M5.Lcd.fillScreen(BLACK);        // Set the screen background color to black. 设置屏幕背景色为黑色
   M5.Lcd.setTextColor(RED, BLACK); // Sets the foreground color and background color of the displayed text.  设置显示文本的前景颜色和背景颜色
   M5.Lcd.setTextSize(2);           // Set the font size.  设置字体大小
