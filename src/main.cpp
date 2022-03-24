@@ -33,5 +33,5 @@ void loop()
   M5.Lcd.printf("%5.2f  %5.2f  %5.2f G", accX, accY, accZ);
   Serial.printf("accX: %1.2f, accY: %1.2f  accZ: %1.2f\n", accX, accY, accZ);
 
-  delay(250); // Delay 1s.
+  delay(1000); // Delay 1s.
 }
